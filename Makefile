@@ -13,8 +13,8 @@ LIB_INSTALL=$(DESTDIR)/lib
 INC_INSTALL=$(DESTDIR)/include
 
 #Library extension
-LIB_EXT = .dylib		#MacOS X shared lib
-#LIB_EXT = .so			#linux shared lib
+#LIB_EXT = .dylib		#MacOS X shared lib
+LIB_EXT = .so			#linux shared lib
 #LIB_EXT = .a			#static lib
 
 # default executable name
